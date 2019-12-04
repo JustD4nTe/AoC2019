@@ -78,5 +78,5 @@ print()
 
 print(min(distanceOfIntersection))
 
-# Commit if u dont want see a plot
+# comment if u dont want see a plot
 drawWires(firstPath, secondPath)
