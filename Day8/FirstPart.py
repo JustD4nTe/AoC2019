@@ -83,7 +83,7 @@ def CountOneAndTwo(image, layer):
     return one, two
 
 
-data = [i for i in open("Day8/data.txt", 'r').read()]
+data = [i for i in open("data.txt", 'r').read()]
 
 image = (imageLayers(25, 6, data))
 
