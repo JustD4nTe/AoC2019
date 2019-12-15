@@ -89,7 +89,7 @@ class Amplifier:
                     if self.mode[0] == 0:
                         outputValue = self.intcode[self.intcode[self.dataOffset +1]]
                     else:
-                        output = self.intcode[self.dataOffset + 1]
+                        outputValue = self.intcode[self.dataOffset + 1]
 
 
                     self.instructionOffset = 2
